@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
-
-event.custom({
+  
+  event.remove({output: 'draconicevolution:awakened_draconium_block'})
+  event.custom({
         "type": "draconicevolution:fusion_crafting",
         "catalyst": {
           "type": "draconicevolution:ingredient_stack",
@@ -35,11 +36,11 @@ event.custom({
           }
         ],
         "result": {
-          "count": 3,
+          "count": 1,
           "item": "draconicevolution:awakened_draconium_block"
         },
         "tier": "WYVERN",
         "total_energy": 50000000
-      })
+      });
 
 })
