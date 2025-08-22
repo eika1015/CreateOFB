@@ -8,13 +8,14 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'ae2:logic_processor']),
 		event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'enderio:copper_alloy_ingot']),
         event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', '#forge:gears/gold'])
-	]).transitionalItem('create:incomplete_precision_mechanism').loops(2);
+	]).transitionalItem('create:incomplete_precision_mechanism').loops(2).id('createofb:create/mechanism/basic');
 
 	event.recipes.tconstruct
 	.casting_table("create:andesite_alloy", 
         Fluid.of("createmetalwork:molten_andesite_alloy", 90), 
         "tconstruct:ingot_cast")
-    .cooling_time(60);
+    .cooling_time(60)
+	.id('createofb:create/compat/andesite_alloy');
 
     //advanced mechanism
 	event.recipes.create.sequenced_assembly([
@@ -25,7 +26,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying('create_dd:integrated_mechanism', ['create_dd:integrated_mechanism', 'enderio:energetic_alloy_ingot']),
         event.recipes.createDeploying('create_dd:integrated_mechanism', ['create_dd:integrated_mechanism', 'create:electron_tube']),
         event.recipes.createDeploying('create_dd:integrated_mechanism', ['create_dd:integrated_mechanism', 'rainbowcompound:lapis_sheet'])
-	]).transitionalItem('create_dd:integrated_mechanism').loops(2);
+	]).transitionalItem('create_dd:integrated_mechanism').loops(2).id('createofb:create/mechanism/advanced');
 
     //elite mechanism
     event.recipes.create.sequenced_assembly([
@@ -37,7 +38,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying('create_dd:calculation_mechanism', ['create_dd:calculation_mechanism', '#forge:gears/enderium']),
         event.recipes.createDeploying('create_dd:calculation_mechanism', ['create_dd:calculation_mechanism', '#forge:plates/steel']),
         event.recipes.createFilling('create_dd:calculation_mechanism', ['create_dd:calculation_mechanism', Fluid.of('tfmg:lubrication_oil', 1000)])
-	]).transitionalItem('create_dd:calculation_mechanism').loops(2);
+	]).transitionalItem('create_dd:calculation_mechanism').loops(2).id('createofb:create/mechanism/elite');
 
     //atomic mechanism
     event.recipes.create.sequenced_assembly([
@@ -50,7 +51,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying('create_dd:infernal_mechanism', ['create_dd:infernal_mechanism', '#forge:plates/netherite']),
         event.recipes.createDeploying('create_dd:infernal_mechanism', ['create_dd:infernal_mechanism', 'industrialforegoing:pink_slime_ingot']),
         event.recipes.createFilling('create_dd:infernal_mechanism', ['create_dd:infernal_mechanism', Fluid.of('tfmg:lubrication_oil', 1000)]),
-	]).transitionalItem('create_dd:infernal_mechanism').loops(2);
+	]).transitionalItem('create_dd:infernal_mechanism').loops(2).id('createofb:create/mechanism/atomic');
 
     //ultimate mechanism
     event.recipes.create.sequenced_assembly([
@@ -63,7 +64,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying('create_dd:sealed_mechanism', ['create_dd:sealed_mechanism', 'minecraft:nether_star']),
         event.recipes.createDeploying('create_dd:sealed_mechanism', ['create_dd:sealed_mechanism', 'rainbowcompound:rainbow_compound']),
         event.recipes.createFilling('create_dd:sealed_mechanism', ['create_dd:sealed_mechanism', Fluid.of('tfmg:lubrication_oil', 1000)]),
-	]).transitionalItem('create_dd:sealed_mechanism').loops(2);
+	]).transitionalItem('create_dd:sealed_mechanism').loops(2).id('createofb:create/mechanism/ultimate');
 
     //unknown mechanism
     event.recipes.create.sequenced_assembly([
@@ -76,7 +77,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying('create_dd:abstruse_mechanism', ['create_dd:abstruse_mechanism', 'rainbowcompound:netherstar_ingot']),
         event.recipes.createDeploying('create_dd:abstruse_mechanism', ['create_dd:abstruse_mechanism', 'createutilities:void_casing']),
         event.recipes.createFilling('create_dd:abstruse_mechanism', ['create_dd:abstruse_mechanism', Fluid.of('tfmg:lubrication_oil', 1000)]),
-	]).transitionalItem('create_dd:abstruse_mechanism').loops(2);
+	]).transitionalItem('create_dd:abstruse_mechanism').loops(2).id('createofb:create/mechanism/unknown');
 
     event.remove({output: 'create:rose_quartz'})
     event.custom(
@@ -96,6 +97,7 @@ ServerEvents.recipes(event => {
               count: 3
             }
           }
-    );
+    ).id('createofb:create/item/rose_quartz');
+
 
 })
