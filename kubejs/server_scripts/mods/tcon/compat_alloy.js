@@ -167,5 +167,36 @@ ServerEvents.recipes((event) => {
         ]
     ).temperature(1000);
 
+    //compat vibrant alloy
+    tconstruct.alloy(
+        Fluid.of("kubejs:molten_vibrant_alloy", 90), 
+        [
+            Fluid.of("kubejs:molten_energetic_alloy", 90), 
+            Fluid.of("tconstruct:molten_ender", 250),
+            Fluid.of("createmetalwork:molten_andesite_alloy", 180)
+        ]
+    ).temperature(2000);
+
+
+    //compat energetic alloy
+    tconstruct.alloy(
+        Fluid.of("kubejs:molten_energetic_alloy", 90), 
+        [
+            Fluid.of("thermal:redstone", 100), 
+            Fluid.of("thermal:glowstone", 250),
+            Fluid.of("tconstruct:molten_gold", 180)
+        ]
+    ).temperature(2000);
+
+    //compat redstone alloy
+    tconstruct.alloy(
+        Fluid.of("kubejs:molten_redstone_alloy", 90), 
+        [
+            Fluid.of("thermal:redstone", 100), 
+            Fluid.of("createmetalwork:molten_andesite_alloy", 90),
+            Fluid.of("tconstruct:earth_slime", 250)
+        ]
+    ).temperature(2000);
+
 
 })

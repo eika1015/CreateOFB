@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
       Item.of('mekanismgenerators:gas_burning_generator').withChance(100.0)
     ], 'mekanismgenerators:heat_generator', [ 
       event.recipes.createDeploying('mekanismgenerators:heat_generator', ['mekanismgenerators:heat_generator', 'mekanism:ultimate_energy_cube']),
-      event.recipes.createDeploying('mekanismgenerators:heat_generator', ['mekanismgenerators:heat_generator', 'create_dd:sealed_mechanism']),
+      event.recipes.createDeploying('mekanismgenerators:heat_generator', ['mekanismgenerators:heat_generator', 'create_dd:abstruse_mechanism']),
       event.recipes.createDeploying('mekanismgenerators:heat_generator', ['mekanismgenerators:heat_generator', 'create:creative_blaze_cake']),
       event.recipes.createDeploying('mekanismgenerators:heat_generator', ['mekanismgenerators:heat_generator', 'mekanismgenerators:turbine_blade']),
       event.recipes.createFilling('mekanismgenerators:heat_generator', ['mekanismgenerators:heat_generator', Fluid.of('mekanism:ethene', 1000)]),

@@ -68,4 +68,55 @@ ServerEvents.recipes((event) => {
     .cooling_time(200)
     .switch_slots(true);
 
+
+    //vibrant alloy
+    tconstruct
+    .casting_table("enderio:vibrant_alloy_ingot", 
+        Fluid.of("kubejs:molten_vibrant_alloy", 90), 
+        "tconstruct:ingot_cast")
+    .cooling_time(200)
+    .switch_slots(true)
+    .id('createofb:compat/ingot/vibrant_alloy');
+
+
+    //energetic alloy
+    tconstruct
+    .casting_table("enderio:energetic_alloy_ingot", 
+        Fluid.of("kubejs:molten_energetic_alloy", 90), 
+        "tconstruct:ingot_cast")
+    .cooling_time(200)
+    .switch_slots(true)
+    .id('createofb:compat/ingot/energetic_alloy');
+
+    //redstone alloy
+    tconstruct
+    .casting_table("enderio:redstone_alloy_ingot", 
+        Fluid.of("kubejs:molten_redstone_alloy", 90), 
+        "tconstruct:ingot_cast")
+    .cooling_time(200)
+    .switch_slots(true)
+    .id('createofb:compat/ingot/redstone_alloy');
+
+    //infused diamond
+    event.remove({output: 'rftoolsbase:infused_diamond'});
+    tconstruct
+    .casting_table("rftoolsbase:infused_diamond", 
+        Fluid.of("kubejs:dimensionalshard", 90), 
+        "minecraft:diamond")
+    .cooling_time(200)
+    .switch_slots(true)
+    .cast_consumed(true)
+    .id('createofb:compat/ingot/infused_diamond');
+
+    //infused ender pearl
+    event.remove({output: 'rftoolsbase:infused_enderpearl'});
+    tconstruct
+    .casting_table("rftoolsbase:infused_enderpearl", 
+        Fluid.of("kubejs:dimensionalshard", 90), 
+        "minecraft:ender_pearl")
+    .cooling_time(200)
+    .switch_slots(true)
+    .cast_consumed(true)
+    .id('createofb:compat/ingot/infused_enderpearl');
+
   })

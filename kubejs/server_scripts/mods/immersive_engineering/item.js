@@ -1,7 +1,5 @@
 ServerEvents.recipes(event => {
     
-    //immersive engineering item adding recipe
-    //grars remove
     event.remove({
         output: '#forge:gears',
         type: 'minecraft:crafting_shaped'
@@ -9,5 +7,7 @@ ServerEvents.recipes(event => {
 
     event.remove({output: 'createmetallurgy:coke'});
     event.remove({output: 'immersiveengineering:coal_coke'});
+    event.remove({id: 'immersiveengineering:blastfurnace/steel'});
+    event.remove({id: 'immersiveengineering:blastfurnace/steel_block'});
   
     })

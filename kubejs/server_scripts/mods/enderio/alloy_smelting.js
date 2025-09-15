@@ -13,16 +13,6 @@ event.recipes.enderio.alloy_smelting(
 ).energy(6800).experience(5);
 
 event.recipes.enderio.alloy_smelting(
-  Item.of("enderio:vibrant_alloy_ingot"),
-  [Ingredient.of("enderio:energetic_alloy_ingot"), "minecraft:ender_pearl", "2x create:andesite_alloy"]
-).energy(6800).experience(5);
-
-event.recipes.enderio.alloy_smelting(
-  Item.of("enderio:redstone_alloy_ingot"),
-  [Ingredient.of("create:polished_rose_quartz"), "#forge:silicon", "create:andesite_alloy"]
-).energy(5000).experience(5);
-
-event.recipes.enderio.alloy_smelting(
   Item.of("enderio:conductive_alloy_ingot"),
   [Ingredient.of("enderio:copper_alloy_ingot"), "minecraft:iron_ingot", "create:polished_rose_quartz"]
 ).energy(9600).experience(5);

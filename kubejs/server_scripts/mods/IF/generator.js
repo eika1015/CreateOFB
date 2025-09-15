@@ -458,7 +458,7 @@ ServerEvents.recipes((event) => {
       Item.of('industrialforegoing:mycelial_explosive').withChance(100.0)
     ], base, [ 
       event.recipes.createDeploying(base, [base, 'minecraft:tnt']),
-      event.recipes.createDeploying(base, [base, 'minecraft:redstoe_torch']),
+      event.recipes.createDeploying(base, [base, 'minecraft:redstone_torch']),
       event.recipes.createDeploying(base, [base, 'create:electron_tube']),
       event.recipes.createDeploying(base, [base, 'industrialforegoing:plastic']),
       event.recipes.createFilling(base, [base, Fluid.of('tfmg:lubrication_oil', 1000)])

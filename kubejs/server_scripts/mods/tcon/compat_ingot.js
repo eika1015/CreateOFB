@@ -1,6 +1,8 @@
 ServerEvents.recipes((event) => {
     const { tconstruct } = event.recipes;
 
+    //event.remove({id: 'tfmg:industrial_blasting/steel'})
+
     //iron
     event.recipes.tfmg.industrial_blasting(
         "create:crushed_raw_iron", 

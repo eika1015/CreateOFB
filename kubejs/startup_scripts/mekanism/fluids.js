@@ -63,6 +63,13 @@ StartupEvents.registry('fluid', event => {
     .displayName('lquuid triethylaluminium')
     .noBlock();
 
+    //ディメンショナル　シャード
+    event.create('dimensionalshard')
+    .thinTexture(0x40e0d0)
+    .bucketColor(0x40e0d0)
+    .displayName('lquuid dimensionalshard')
+    .noBlock();
+
 
 
 })

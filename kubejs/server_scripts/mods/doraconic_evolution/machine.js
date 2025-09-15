@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
           "item": "draconicevolution:awakened_crafting_injector"
         },
         "tier": "WYVERN",
-        "total_energy": 512000
+        "total_energy": 1860000
       }).id('createofb:draconicevolution/machine/doraconic_fusion_crafting_injector');
 
   event.remove({id: 'draconicevolution:machines/chaotic_crafting_injector'})
@@ -270,7 +270,7 @@ ServerEvents.recipes(event => {
           "item": "draconicevolution:chaotic_crafting_injector"
         },
         "tier": "DRACONIC",
-        "total_energy": 512000
+        "total_energy": 5120000
       }).id('createofb:draconicevolution/machine/draconic_fusion_crafting_injector');
 
 })

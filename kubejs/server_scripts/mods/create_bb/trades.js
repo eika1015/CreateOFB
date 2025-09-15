@@ -41,12 +41,12 @@ MoreJSEvents.villagerTrades((event) => {
     event.addTrade('cleric', 3, [TradeItem.of('createdeco:brass_coin', 64, 64)], 'minecraft:nether_star').maxUses(100).villagerExperience(5);
 
     //Cleric lv.4 trade.
-    //event.addTrade('cleric', 4, [TradeItem.of('createdeco:gold_coin', 5, 5)], 'create:precision_mechanism').maxUses(100).villagerExperience(5);
-    //event.addTrade('cleric', 4, [TradeItem.of('createdeco:gold_coin', 10, 10)], 'create_dd:integrated_mechanism').maxUses(100).villagerExperience(5);
+    event.addTrade('cleric', 4, [TradeItem.of('createdeco:gold_coin', 5, 5)], 'create:precision_mechanism').maxUses(100).villagerExperience(5);
+    event.addTrade('cleric', 4, [TradeItem.of('createdeco:gold_coin', 10, 10)], 'create_dd:integrated_mechanism').maxUses(100).villagerExperience(5);
     
     //Cleric lv.5 trade.
-    //event.addTrade('cleric', 5, [TradeItem.of('createdeco:netherite_coin', 5, 5)], 'create_dd:calculation_mechanism').maxUses(100).villagerExperience(5);
-    //event.addTrade('cleric', 5, [TradeItem.of('createdeco:netherite_coin', 10, 10)], 'create_dd:sealed_mechanism').maxUses(100).villagerExperience(5);
+    event.addTrade('cleric', 5, [TradeItem.of('createdeco:netherite_coin', 5, 5)], 'create_dd:calculation_mechanism').maxUses(100).villagerExperience(5);
+    event.addTrade('cleric', 5, [TradeItem.of('createdeco:netherite_coin', 10, 10)], 'create_dd:infernal_mechanism').maxUses(100).villagerExperience(5);
     
 
 

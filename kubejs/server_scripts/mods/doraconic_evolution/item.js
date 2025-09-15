@@ -257,4 +257,87 @@ ServerEvents.recipes(event => {
         "total_energy": 120000000
       }).id('createofb:draconicevolution/item/chaotic_core');
 
+    base = 'extendedcrafting:ultimate_singularity'
+    event.remove({output: 'draconicevolution:reactor_core'})
+    event.custom({
+        type: "create:sequenced_assembly",
+        ingredient: {item: base},
+        loops: 1000,
+        results: [{count: 1,item: "draconicevolution:reactor_core"}],
+        sequence: [
+          {
+            type: "create:deploying",
+            ingredients: [
+              {item: base},
+              [{item: "ticex:draconic_crystal"}]
+            ],
+            results: [
+              {item: base}
+            ]
+          },
+          {
+            type: "create:filling",
+            ingredients: [
+              {item: base},
+              {
+                amount: 1000,
+                fluid: "tfmg:lubrication_oil",
+                nbt: {}
+              }
+            ],
+            results: [
+              {item: base}
+            ]
+          },
+          {
+            type: "create:filling",
+            ingredients: [
+              {item: base},
+              {
+                amount: 1000,
+                fluid: "ticex:molten_etheric",
+                nbt: {}
+              }
+            ],
+            results: [
+              {item: base}
+            ]
+          },
+          {
+            type: "create:deploying",
+            ingredients: [
+              {item: base},
+              [{item: "rainbowcompound:rainbow_compound"}]
+            ],
+            results: [
+              {item: base}
+            ]
+          },
+          {
+            type: "create:deploying",
+            ingredients: [
+              {item: base},
+              [{item: "create_ethium:polished_stellarite"}]
+            ],
+            results: [
+              {item: base}
+            ]
+          },
+          {
+            type: "create_new_age:energising",
+            energy_needed: 100000,
+            ingredients: [
+              {item: base}
+            ],
+            results: [
+              {item: base}
+            ]
+          },
+        ],
+        transitionalItem: {
+          item: base
+        }
+      }
+    ).id('createofb:draconicevolution/item/reactor_core');
+
 })

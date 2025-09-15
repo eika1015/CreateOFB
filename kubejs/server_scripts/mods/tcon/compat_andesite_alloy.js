@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
     event.recipes.tfmg.industrial_blasting(
         "createmetalwork:andesite_dust", 
         [
-            Fluid.of("createmetalwork:molten_andesite", 180), 
+            Fluid.of("createmetalwork:molten_andesite", 90), 
             Fluid.of("tconstruct:molten_iron", 10)
         ], 1
     ).id('createofb:compat/andesite_alloy/molten_andesite_2');

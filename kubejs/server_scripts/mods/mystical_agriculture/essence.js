@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 
 
-  //event.remove({input: '#mysticalagriculture:essences'});
+  event.remove({input: '#mysticalagriculture:essences'});
 
   //iron
   event.recipes.createMixing('minecraft:iron_ingot', [
