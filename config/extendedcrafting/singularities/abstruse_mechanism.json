@@ -1,0 +1,11 @@
+{
+    "name": "Abstruse Mechanism",
+    "colors": [
+    "191970",
+    "008080"
+    ],
+    "ingredient": {
+    "item": "create_dd:abstruse_mechanism"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Soularium Ingot",
+    "colors": [
+    "8b4513",
+    "000000"
+    ],
+    "ingredient": {
+    "item": "enderio:soularium_ingot"
+    },
+    "inUltimateSingularity": true
+}

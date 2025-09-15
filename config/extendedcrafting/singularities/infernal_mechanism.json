@@ -1,0 +1,11 @@
+{
+    "name": "Infernal Mechanism",
+    "colors": [
+    "000000",
+    "f4a460"
+    ],
+    "ingredient": {
+    "item": "create_dd:infernal_mechanism"
+    },
+    "inUltimateSingularity": true
+}

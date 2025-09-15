@@ -1,0 +1,11 @@
+{
+    "name": "Strange Colorful Ingot",
+    "colors": [
+    "ff1493",
+    "00bfff"
+    ],
+    "ingredient": {
+    "item": "rainbowcompound:strange_colored_ingot"
+    },
+    "inUltimateSingularity": true
+}

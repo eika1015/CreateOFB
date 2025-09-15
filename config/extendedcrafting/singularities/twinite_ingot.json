@@ -1,0 +1,11 @@
+{
+    "name": "Twinite Ingot",
+    "colors": [
+    "ff1493",
+    "b22222"
+    ],
+    "ingredient": {
+    "item": "thermal_extra:twinite_ingot"
+    },
+    "inUltimateSingularity": true
+}

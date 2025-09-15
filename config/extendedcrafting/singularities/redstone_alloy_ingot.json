@@ -1,0 +1,11 @@
+{
+    "name": "Redstone Alloy Ingot",
+    "colors": [
+    "b22222",
+    "ff0000"
+    ],
+    "ingredient": {
+    "item": "enderio:redstone_alloy_ingot"
+    },
+    "inUltimateSingularity": true
+}

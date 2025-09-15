@@ -1,0 +1,11 @@
+{
+    "name": "Echo Ingot",
+    "colors": [
+    "006400",
+    "2f4f4f"
+    ],
+    "ingredient": {
+    "item": "create_deep_dark:echo_ingot"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Copper Alloy Ingot",
+    "colors": [
+    "b8860b",
+    "f4a460"
+    ],
+    "ingredient": {
+    "item": "enderio:copper_alloy_ingot"
+    },
+    "inUltimateSingularity": true
+}

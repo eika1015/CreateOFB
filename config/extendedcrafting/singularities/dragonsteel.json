@@ -1,0 +1,11 @@
+{
+    "name": "Dragonsteel Ingot",
+    "colors": [
+    "6a5acd",
+    "000080"
+    ],
+    "ingredient": {
+    "item": "thermal_extra:dragonsteel_ingot"
+    },
+    "inUltimateSingularity": true
+}

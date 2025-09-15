@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial"
+	group: ""
+	id: "3FEBA6E148797757"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["CreateOFBはCreateを基準に様々なMODを組み合わせた"]
+			id: "231F3E71F41C2BB7"
+			size: 1.0d
+			subtitle: "Create of the crate, for the create, by the create."
+			tasks: [{
+				id: "15E3CCC761ED8083"
+				title: "CreateOFB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "34F72FB024CCCDEC"
+			tasks: [{
+				id: "640C4492E0D38E6A"
+				title: "tinkers construct"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Tutorial"
+}

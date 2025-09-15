@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_quest"
+	group: ""
+	id: "645768E63BC953E7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Createを基本に様々な工業化MODを統合したMODPACKです。新鮮なCreate生活を提供します。"]
+			id: "6F7BCBBA96F625DC"
+			subtitle: "Create of the crate, for the create, by the create."
+			tasks: [{
+				id: "301CC8505993BFCA"
+				title: "infomation"
+				type: "checkmark"
+			}]
+			title: "COFBについて"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7BCBBA96F625DC"]
+			id: "1BF6AA1DE368FA34"
+			tasks: [{
+				advancement: "tconstruct:smeltery/structure"
+				criterion: ""
+				id: "21F49CF5F357A60F"
+				title: "Tinker's construct"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF6AA1DE368FA34"]
+			id: "7A3E4AED12C45B41"
+			tasks: [{
+				id: "460F816DC0E6D511"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "4D416DBC2AD2E944"
+			tasks: [{
+				advancement: "create:precision_mechanism"
+				criterion: ""
+				id: "2B1FC62E57789D8E"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	title: "Main quest"
+}

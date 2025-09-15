@@ -1,0 +1,11 @@
+{
+    "name": "Hepatizon Ingot",
+    "colors": [
+    "483d8b",
+    "000000"
+    ],
+    "ingredient": {
+    "item": "tconstruct:hepatizon_ingot"
+    },
+    "inUltimateSingularity": true
+}

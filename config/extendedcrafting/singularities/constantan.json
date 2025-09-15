@@ -1,0 +1,11 @@
+{
+    "name": "constantan Ingot",
+    "colors": [
+    "f4a460",
+    "b8860b"
+    ],
+    "ingredient": {
+    "item": "thermal:constantan_ingot"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Tcon Rose Gold Ingot",
+    "colors": [
+    "e9967a",
+    "ffefd5"
+    ],
+    "ingredient": {
+    "item": "tconstruct:rose_gold_ingot"
+    },
+    "inUltimateSingularity": true
+}

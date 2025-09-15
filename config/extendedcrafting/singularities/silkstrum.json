@@ -1,0 +1,11 @@
+{
+    "name": "Silkstrum Ingot",
+    "colors": [
+    "eee8aa",
+    "fffaf0"
+    ],
+    "ingredient": {
+    "item": "createchromaticreturn:silkstrum"
+    },
+    "inUltimateSingularity": true
+}

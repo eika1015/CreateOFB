@@ -1,0 +1,11 @@
+{
+    "name": "Prismarine Alloy",
+    "colors": [
+    "7fffd4",
+    "3cb371"
+    ],
+    "ingredient": {
+    "item": "create_aquatic_ambitions:prismarine_alloy"
+    },
+    "inUltimateSingularity": true
+}

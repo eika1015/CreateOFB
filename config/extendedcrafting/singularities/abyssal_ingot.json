@@ -1,0 +1,11 @@
+{
+    "name": "Abyssal Ingot",
+    "colors": [
+    "228b22",
+    "556b2f"
+    ],
+    "ingredient": {
+    "item": "thermal_extra:abyssal_ingot"
+    },
+    "inUltimateSingularity": true
+}

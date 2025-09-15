@@ -1,0 +1,11 @@
+{
+    "name": "Awakened Supremium Ingot",
+    "colors": [
+    "ff0000",
+    "ffd700"
+    ],
+    "ingredient": {
+    "item": "mysticalagriculture:awakened_supremium_ingot"
+    },
+    "inUltimateSingularity": true
+}

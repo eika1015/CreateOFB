@@ -1,0 +1,11 @@
+{
+    "name": "Amethyst Bronze Ingot",
+    "colors": [
+    "ff69b4",
+    "9932cc"
+    ],
+    "ingredient": {
+    "item": "tconstruct:amethyst_bronze_ingot"
+    },
+    "inUltimateSingularity": true
+}

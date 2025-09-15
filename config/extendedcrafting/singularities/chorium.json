@@ -1,0 +1,11 @@
+{
+    "name": "Chorium Ingot",
+    "colors": [
+    "9932cc",
+    "8a2be2"
+    ],
+    "ingredient": {
+    "item": "createcasing:chorium_ingot"
+    },
+    "inUltimateSingularity": true
+}

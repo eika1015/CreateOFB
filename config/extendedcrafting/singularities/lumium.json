@@ -1,0 +1,11 @@
+{
+    "name": "Lumium Ingot",
+    "colors": [
+    "ffd700",
+    "ffa500"
+    ],
+    "ingredient": {
+    "item": "thermal:lumium_ingot"
+    },
+    "inUltimateSingularity": true
+}

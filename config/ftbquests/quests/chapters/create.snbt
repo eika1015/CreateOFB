@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	id: "650A069E77206735"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "402B6EA4C942823F"
+			tasks: [{
+				id: "3FFC785AB9FC3C2B"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4A7B2A1A59B73F67"
+			tasks: [{
+				id: "2E8BA20B82B81CC6"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Create"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Pulsating Alloy Ingot",
+    "colors": [
+    "32cd32",
+    "6b8e23"
+    ],
+    "ingredient": {
+    "item": "enderio:pulsating_alloy_ingot"
+    },
+    "inUltimateSingularity": true
+}

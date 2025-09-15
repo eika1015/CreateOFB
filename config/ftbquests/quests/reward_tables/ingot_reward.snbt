@@ -1,0 +1,216 @@
+{
+	id: "018C501E8C336F88"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:iron_ingot", weight: 100.0f }
+		{ count: 3, item: "minecraft:iron_ingot", weight: 50.0f }
+		{ item: "minecraft:copper_ingot", weight: 100.0f }
+		{ count: 3, item: "minecraft:copper_ingot", weight: 50.0f }
+		{ item: "minecraft:gold_ingot", weight: 50.0f }
+		{ count: 3, item: "minecraft:gold_ingot", weight: 25.0f }
+		{ item: "minecraft:netherite_ingot", weight: 25.0f }
+		{ count: 3, item: "minecraft:netherite_ingot", weight: 12.5f }
+		{ item: "create_ethium:ethium_ingot" }
+		{ count: 3, item: "create_ethium:ethium_ingot", weight: 0.5f }
+		{ item: "mekanism:ingot_refined_obsidian", weight: 10.0f }
+		{ count: 3, item: "mekanism:ingot_refined_obsidian", weight: 5.0f }
+		{ item: "mekanism:ingot_refined_glowstone", weight: 10.0f }
+		{ count: 3, item: "mekanism:ingot_refined_glowstone", weight: 5.0f }
+		{ item: "mekanism:ingot_osmium", weight: 50.0f }
+		{ count: 3, item: "mekanism:ingot_osmium", weight: 25.0f }
+		{ item: "createdeco:industrial_iron_ingot", weight: 10.0f }
+		{ count: 3, item: "createdeco:industrial_iron_ingot", weight: 5.0f }
+		{ item: "alltheores:platinum_ingot", weight: 25.0f }
+		{ count: 3, item: "alltheores:platinum_ingot", weight: 12.5f }
+		{ item: "alltheores:iridium_ingot", weight: 10.0f }
+		{ count: 3, item: "alltheores:iridium_ingot", weight: 5.0f }
+		{ item: "industrialforegoing:pink_slime_ingot", weight: 5.0f }
+		{ count: 3, item: "industrialforegoing:pink_slime_ingot", weight: 2.5f }
+		{ item: "create_deep_dark:echo_ingot" }
+		{ count: 3, item: "create_deep_dark:echo_ingot", weight: 0.5f }
+		{ item: "createchromaticreturn:glowing_ingot" }
+		{ count: 3, item: "createchromaticreturn:glowing_ingot", weight: 0.5f }
+		{ item: "createchromaticreturn:multiplite_ingot", weight: 2.0f }
+		{ count: 3, item: "createchromaticreturn:multiplite_ingot" }
+		{ item: "createchromaticreturn:industrium_ingot" }
+		{ count: 3, item: "createchromaticreturn:industrium_ingot", weight: 0.5f }
+		{ item: "createchromaticreturn:durasteel_ingot", weight: 0.5f }
+		{ count: 3, item: "createchromaticreturn:durasteel_ingot", weight: 0.25f }
+		{ item: "createchromaticreturn:antiplite_ingot", weight: 0.5f }
+		{ count: 3, item: "createchromaticreturn:antiplite_ingot", weight: 0.25f }
+		{ item: "thermal:tin_ingot", weight: 50.0f }
+		{ count: 3, item: "thermal:tin_ingot", weight: 25.0f }
+		{ item: "thermal:lead_ingot", weight: 75.0f }
+		{ count: 3, item: "thermal:lead_ingot", weight: 37.5f }
+		{ item: "thermal:silver_ingot", weight: 75.0f }
+		{ count: 3, item: "thermal:silver_ingot", weight: 37.5f }
+		{ item: "thermal:nickel_ingot", weight: 30.0f }
+		{ count: 3, item: "thermal:nickel_ingot", weight: 15.0f }
+		{ item: "thermal:steel_ingot", weight: 25.0f }
+		{ count: 3, item: "thermal:steel_ingot", weight: 12.5f }
+		{ item: "thermal:rose_gold_ingot", weight: 25.0f }
+		{ count: 3, item: "thermal:rose_gold_ingot", weight: 12.5f }
+		{ item: "thermal:bronze_ingot", weight: 25.0f }
+		{ count: 3, item: "thermal:bronze_ingot", weight: 12.5f }
+		{ item: "thermal:electrum_ingot", weight: 10.0f }
+		{ count: 3, item: "thermal:electrum_ingot", weight: 5.0f }
+		{ item: "thermal:invar_ingot", weight: 50.0f }
+		{ count: 3, item: "thermal:invar_ingot", weight: 25.0f }
+		{ item: "thermal:constantan_ingot", weight: 25.0f }
+		{ count: 3, item: "thermal:constantan_ingot", weight: 12.5f }
+		{ item: "thermal:signalum_ingot", weight: 10.0f }
+		{ count: 3, item: "thermal:signalum_ingot", weight: 5.0f }
+		{ item: "thermal:lumium_ingot", weight: 10.0f }
+		{ count: 3, item: "thermal:lumium_ingot", weight: 5.0f }
+		{ item: "thermal:enderium_ingot", weight: 25.0f }
+		{ count: 3, item: "thermal:enderium_ingot", weight: 12.5f }
+		{ item: "createutilities:void_steel_ingot", weight: 10.0f }
+		{ count: 3, item: "createutilities:void_steel_ingot", weight: 5.0f }
+		{ item: "ad_astra:etrium_ingot", weight: 10.0f }
+		{ count: 3, item: "ad_astra:etrium_ingot", weight: 5.0f }
+		{ item: "ad_astra:desh_ingot", weight: 2.0f }
+		{ count: 3, item: "ad_astra:desh_ingot" }
+		{ item: "ad_astra:ostrum_ingot", weight: 2.0f }
+		{ count: 3, item: "ad_astra:ostrum_ingot" }
+		{ item: "ad_astra:calorite_ingot", weight: 5.0f }
+		{ count: 3, item: "ad_astra:calorite_ingot", weight: 2.5f }
+		{ item: "extendedcrafting:black_iron_ingot", weight: 2.0f }
+		{ count: 3, item: "extendedcrafting:black_iron_ingot" }
+		{ item: "extendedcrafting:redstone_ingot", weight: 3.0f }
+		{ count: 3, item: "extendedcrafting:redstone_ingot", weight: 1.5f }
+		{ item: "extendedcrafting:enhanced_redstone_ingot" }
+		{ count: 3, item: "extendedcrafting:enhanced_redstone_ingot", weight: 0.5f }
+		{ item: "extendedcrafting:ender_ingot", weight: 5.0f }
+		{ count: 3, item: "extendedcrafting:ender_ingot", weight: 2.5f }
+		{ item: "extendedcrafting:enhanced_ender_ingot", weight: 3.0f }
+		{ count: 3, item: "extendedcrafting:enhanced_ender_ingot", weight: 1.5f }
+		{ item: "extendedcrafting:crystaltine_ingot", weight: 2.0f }
+		{ count: 3, item: "extendedcrafting:crystaltine_ingot" }
+		{ item: "extendedcrafting:the_ultimate_ingot" }
+		{ count: 3, item: "extendedcrafting:the_ultimate_ingot", weight: 0.5f }
+		{ item: "rainbowcompound:netherstar_ingot" }
+		{ count: 3, item: "rainbowcompound:netherstar_ingot", weight: 0.5f }
+		{ item: "rainbowcompound:strange_colored_ingot", weight: 5.0f }
+		{ count: 3, item: "rainbowcompound:strange_colored_ingot", weight: 2.5f }
+		{ item: "rainbowcompound:blazeite_ingot" }
+		{ count: 3, item: "rainbowcompound:blazeite_ingot", weight: 0.5f }
+		{ item: "rainbowcompound:chorusite_ingot", weight: 2.0f }
+		{ count: 3, item: "rainbowcompound:chorusite_ingot" }
+		{ item: "rainbowcompound:enderite_ingot", weight: 3.0f }
+		{ count: 3, item: "rainbowcompound:enderite_ingot", weight: 1.5f }
+		{ item: "rainbowcompound:frostite_ingot", weight: 2.0f }
+		{ count: 3, item: "rainbowcompound:frostite_ingot" }
+		{ item: "rainbowcompound:glowstoneite_ingot", weight: 5.0f }
+		{ count: 3, item: "rainbowcompound:glowstoneite_ingot", weight: 2.5f }
+		{ item: "rainbowcompound:slimeite_ingot", weight: 5.0f }
+		{ count: 3, item: "rainbowcompound:slimeite_ingot", weight: 2.5f }
+		{ item: "rainbowcompound:netherwartite_ingot", weight: 2.0f }
+		{ count: 3, item: "rainbowcompound:netherwartite_ingot" }
+		{ item: "rainbowcompound:warpedite_ingot", weight: 3.0f }
+		{ count: 3, item: "rainbowcompound:warpedite_ingot", weight: 1.5f }
+		{ item: "rainbowcompound:obsidianite_ingot", weight: 5.0f }
+		{ count: 3, item: "rainbowcompound:obsidianite_ingot", weight: 2.5f }
+		{ item: "twilightforest:ironwood_ingot", weight: 2.0f }
+		{ count: 3, item: "twilightforest:ironwood_ingot" }
+		{ item: "twilightforest:knightmetal_ingot" }
+		{ count: 3, item: "twilightforest:knightmetal_ingot", weight: 0.5f }
+		{ item: "twilightforest:fiery_ingot", weight: 2.0f }
+		{ count: 3, item: "twilightforest:fiery_ingot" }
+		{ item: "create:zinc_ingot", weight: 75.0f }
+		{ count: 3, item: "create:zinc_ingot", weight: 37.5f }
+		{ item: "create:brass_ingot", weight: 50.0f }
+		{ count: 3, item: "create:brass_ingot", weight: 25.0f }
+		{ item: "createcasing:chorium_ingot", weight: 12.5f }
+		{ count: 3, item: "createcasing:chorium_ingot", weight: 6.25f }
+		{ item: "vintageimprovements:vanadium_ingot", weight: 5.0f }
+		{ count: 3, item: "vintageimprovements:vanadium_ingot", weight: 2.5f }
+		{ item: "thermal_extra:soul_infused_ingot", weight: 2.0f }
+		{ count: 3, item: "thermal_extra:soul_infused_ingot" }
+		{ item: "thermal_extra:shellite_ingot" }
+		{ count: 3, item: "thermal_extra:shellite_ingot", weight: 0.5f }
+		{ item: "thermal_extra:twinite_ingot", weight: 5.0f }
+		{ count: 3, item: "thermal_extra:twinite_ingot", weight: 2.5f }
+		{ item: "thermal_extra:dragonsteel_ingot", weight: 2.0f }
+		{ count: 3, item: "thermal_extra:dragonsteel_ingot" }
+		{ item: "thermal_extra:abyssal_ingot" }
+		{ count: 3, item: "thermal_extra:abyssal_ingot", weight: 0.5f }
+		{ item: "tfmg:cast_iron_ingot", weight: 25.0f }
+		{ count: 3, item: "tfmg:cast_iron_ingot", weight: 12.5f }
+		{ item: "tfmg:lithium_ingot", weight: 25.0f }
+		{ count: 3, item: "tfmg:lithium_ingot", weight: 12.5f }
+		{ item: "tfmg:magnetic_ingot", weight: 6.0f }
+		{ count: 3, item: "tfmg:magnetic_ingot", weight: 3.0f }
+		{ item: "draconicevolution:awakened_draconium_ingot", weight: 2.0f }
+		{ count: 3, item: "draconicevolution:awakened_draconium_ingot" }
+		{ item: "draconicevolution:draconium_ingot" }
+		{ count: 3, item: "draconicevolution:draconium_ingot", weight: 0.5f }
+		{ item: "immersiveengineering:ingot_hop_graphite", weight: 2.0f }
+		{ count: 3, item: "immersiveengineering:ingot_hop_graphite" }
+		{ item: "immersiveengineering:ingot_aluminum", weight: 50.0f }
+		{ count: 3, item: "immersiveengineering:ingot_aluminum", weight: 25.0f }
+		{ item: "immersiveengineering:ingot_uranium", weight: 10.0f }
+		{ count: 3, item: "immersiveengineering:ingot_uranium", weight: 5.0f }
+		{ item: "mysticalagriculture:prosperity_ingot", weight: 50.0f }
+		{ count: 3, item: "mysticalagriculture:prosperity_ingot", weight: 25.0f }
+		{ item: "mysticalagriculture:inferium_ingot", weight: 40.0f }
+		{ count: 3, item: "mysticalagriculture:inferium_ingot", weight: 20.0f }
+		{ item: "mysticalagriculture:prudentium_ingot", weight: 30.0f }
+		{ count: 3, item: "mysticalagriculture:prudentium_ingot", weight: 15.0f }
+		{ item: "mysticalagriculture:tertium_ingot", weight: 20.0f }
+		{ count: 3, item: "mysticalagriculture:tertium_ingot", weight: 10.0f }
+		{ item: "mysticalagriculture:imperium_ingot", weight: 10.0f }
+		{ count: 3, item: "mysticalagriculture:imperium_ingot", weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_ingot", weight: 5.0f }
+		{ count: 3, item: "mysticalagriculture:supremium_ingot", weight: 2.5f }
+		{ item: "mysticalagriculture:awakened_supremium_ingot", weight: 2.5f }
+		{ count: 3, item: "mysticalagriculture:awakened_supremium_ingot", weight: 1.25f }
+		{ item: "mysticalagriculture:soulium_ingot", weight: 20.0f }
+		{ count: 3, item: "mysticalagriculture:soulium_ingot", weight: 10.0f }
+		{ item: "mysticalagradditions:insanium_ingot", weight: 5.0f }
+		{ count: 3, item: "mysticalagradditions:insanium_ingot", weight: 2.5f }
+		{ item: "tconstruct:cobalt_ingot", weight: 10.0f }
+		{ count: 3, item: "tconstruct:cobalt_ingot", weight: 5.0f }
+		{ item: "tconstruct:slimesteel_ingot", weight: 5.0f }
+		{ count: 3, item: "tconstruct:slimesteel_ingot", weight: 2.5f }
+		{ item: "tconstruct:amethyst_bronze_ingot", weight: 2.5f }
+		{ count: 3, item: "tconstruct:amethyst_bronze_ingot", weight: 1.25f }
+		{ item: "tconstruct:rose_gold_ingot", weight: 10.0f }
+		{ count: 3, item: "tconstruct:rose_gold_ingot", weight: 5.0f }
+		{ item: "tconstruct:pig_iron_ingot", weight: 20.0f }
+		{ count: 3, item: "tconstruct:pig_iron_ingot", weight: 10.0f }
+		{ item: "tconstruct:cinderslime_ingot", weight: 30.0f }
+		{ count: 3, item: "tconstruct:cinderslime_ingot", weight: 15.0f }
+		{ item: "tconstruct:queens_slime_ingot", weight: 20.0f }
+		{ count: 3, item: "tconstruct:queens_slime_ingot", weight: 10.0f }
+		{ item: "tconstruct:manyullyn_ingot", weight: 10.0f }
+		{ count: 3, item: "tconstruct:manyullyn_ingot", weight: 5.0f }
+		{ item: "tconstruct:hepatizon_ingot", weight: 20.0f }
+		{ count: 3, item: "tconstruct:hepatizon_ingot", weight: 10.0f }
+		{ item: "ticex:etheric_ingot", weight: 5.0f }
+		{ count: 3, item: "ticex:etheric_ingot", weight: 2.5f }
+		{ item: "enderio:copper_alloy_ingot", weight: 20.0f }
+		{ count: 3, item: "enderio:copper_alloy_ingot", weight: 10.0f }
+		{ item: "enderio:energetic_alloy_ingot", weight: 50.0f }
+		{ count: 3, item: "enderio:energetic_alloy_ingot", weight: 25.0f }
+		{ item: "enderio:vibrant_alloy_ingot", weight: 25.0f }
+		{ count: 3, item: "enderio:vibrant_alloy_ingot", weight: 12.5f }
+		{ item: "enderio:redstone_alloy_ingot", weight: 12.5f }
+		{ count: 3, item: "enderio:redstone_alloy_ingot", weight: 6.25f }
+		{ item: "enderio:conductive_alloy_ingot", weight: 50.0f }
+		{ count: 3, item: "enderio:conductive_alloy_ingot", weight: 25.0f }
+		{ item: "enderio:pulsating_alloy_ingot", weight: 30.0f }
+		{ count: 3, item: "enderio:pulsating_alloy_ingot", weight: 15.0f }
+		{ item: "enderio:dark_steel_ingot", weight: 20.0f }
+		{ count: 3, item: "enderio:dark_steel_ingot", weight: 10.0f }
+		{ item: "enderio:soularium_ingot", weight: 20.0f }
+		{ count: 3, item: "enderio:soularium_ingot", weight: 10.0f }
+		{ item: "enderio:end_steel_ingot", weight: 10.0f }
+		{ count: 3, item: "enderio:end_steel_ingot", weight: 5.0f }
+		{ item: "irons_spellbooks:arcane_ingot", weight: 2.0f }
+		{ count: 3, item: "irons_spellbooks:arcane_ingot" }
+		{ item: "createmetallurgy:tungsten_ingot", weight: 10.0f }
+		{ count: 3, item: "createmetallurgy:tungsten_ingot", weight: 5.0f }
+	]
+	title: "Ingot reward"
+}

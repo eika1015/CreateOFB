@@ -1,0 +1,11 @@
+{
+    "name": "Conductive Alloy Ingot",
+    "colors": [
+    "ffc0cb",
+    "fa8072"
+    ],
+    "ingredient": {
+    "item": "enderio:conductive_alloy_ingot"
+    },
+    "inUltimateSingularity": true
+}

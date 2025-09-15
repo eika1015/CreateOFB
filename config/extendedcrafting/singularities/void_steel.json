@@ -1,0 +1,11 @@
+{
+    "name": "Void Steel Ingot",
+    "colors": [
+    "006400",
+    "008b8b"
+    ],
+    "ingredient": {
+    "item": "createutilities:void_steel_ingot"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "End Steel Ingot",
+    "colors": [
+    "daa520",
+    "ffd700"
+    ],
+    "ingredient": {
+    "item": "enderio:end_steel_ingot"
+    },
+    "inUltimateSingularity": true
+}

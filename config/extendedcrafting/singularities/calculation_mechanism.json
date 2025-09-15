@@ -1,0 +1,11 @@
+{
+    "name": "Calculation Mechanism",
+    "colors": [
+    "5f9ea0",
+    "ffd700"
+    ],
+    "ingredient": {
+    "item": "create_dd:calculation_mechanism"
+    },
+    "inUltimateSingularity": true
+}

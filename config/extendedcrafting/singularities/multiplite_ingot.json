@@ -1,0 +1,11 @@
+{
+    "name": "Multiplite Ingot",
+    "colors": [
+    "ff1493",
+    "ff69b4"
+    ],
+    "ingredient": {
+    "item": "createchromaticreturn:multiplite_ingot"
+    },
+    "inUltimateSingularity": true
+}

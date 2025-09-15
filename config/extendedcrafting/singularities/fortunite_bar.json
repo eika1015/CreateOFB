@@ -1,0 +1,11 @@
+{
+    "name": "Fortunite Bar",
+    "colors": [
+    "ffd700",
+    "daa520"
+    ],
+    "ingredient": {
+    "item": "createchromaticreturn:fortunite_bar"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Etheric Ingot",
+    "colors": [
+    "7cfc00",
+    "adff2f"
+    ],
+    "ingredient": {
+    "item": "ticex:etheric_ingot"
+    },
+    "inUltimateSingularity": true
+}

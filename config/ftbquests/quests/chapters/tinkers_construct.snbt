@@ -1,0 +1,887 @@
+{
+	autofocus_id: "0353E3250A19FC30"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: ""
+	id: "126C036029D2BD27"
+	images: [
+		{
+			height: 7.0d
+			image: "createofb:textures/tinkers_k.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			height: 7.5d
+			image: "createofb:textures/tinkers_l.png"
+			rotation: 0.0d
+			width: 13.5d
+			x: 14.0d
+			y: 3.2d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&cTinker's construct&r は様々な素材を組み合わせることでより高性能の道具を作れるMODです。"
+				"本MODPACKでは金属冶金をはじめ様々な中間素材の作成に利用されます。"
+			]
+			id: "0353E3250A19FC30"
+			tasks: [{
+				id: "6DF2F657E5C8262C"
+				title: "tinker's construct"
+				type: "checkmark"
+			}]
+			title: "Tinker's construct"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C254DEBE5D97411"]
+			description: ["&lグラウト&rを焼くことで乾式製錬炉の作成に必要な素材である焼成レンガを作成することができます。"]
+			id: "27B147A770DDDB96"
+			rewards: [{
+				count: 16
+				id: "5E514013A89859F7"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CE7A7D863E1E237"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			title: "耐熱炉の素材"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B147A770DDDB96"]
+			description: [
+				"金属を融解するための第一歩としてコンパクトな炉を作成しましょう。"
+				"この炉は下部に発熱器、上部に溶融器を置くことで動作します。発熱器に固形燃料を入れると炉の温度が上昇し金属を融解することが可能です。"
+				"またこの炉を使うことで金属を133%融解することが可能です。"
+			]
+			id: "59176FB020167CF8"
+			rewards: [
+				{
+					count: 4
+					id: "6FCB27C5D0BC9F3B"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B03AA8983712FAF"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0821EDC7DC82C381"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "25F0211D81B10F56"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			title: "冶金の第一歩"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59176FB020167CF8"]
+			description: [
+				"乾式製錬炉は金属の融解や合金の作成、金属製の道具パーツの作成などを行うためのマルチブロックです。"
+				"融解には溶岩などの液体燃料が必要になります。"
+			]
+			id: "3ABBB05BDFA37551"
+			rewards: [{
+				count: 4
+				id: "09A9146E61D1EB33"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "565C11A8B4882AC1"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "2A6D5A1C8921AED1"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "55A56D84B6B3B101"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+			]
+			title: "乾式製錬炉"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0353E3250A19FC30"]
+			id: "16844EEFEB0743DD"
+			rewards: [{
+				count: 8
+				id: "19D0773842290EBA"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7AE7D763658A5A17"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "54FA0B5C85EF55D4"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "0DCFA287CBDD8721"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["782BE1E5074463C9"]
+			id: "4C254DEBE5D97411"
+			rewards: [{
+				count: 16
+				id: "303A681111A95AC4"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "03FE8B5B5CB47C1F"
+				item: { Count: 8, id: "tconstruct:grout" }
+				type: "item"
+			}]
+			title: "グロウト"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10979E0EC9A577E5"]
+			id: "6F6949E6E69A3F0D"
+			tasks: [{
+				id: "093DFF6C5EA30DAF"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10979E0EC9A577E5"]
+			id: "08D081B71688A543"
+			tasks: [{
+				id: "6C2155974E363BBF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(tconstruct:casts/single_use))"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27B147A770DDDB96"]
+			id: "1148C605A7727D39"
+			tasks: [{
+				id: "27690B09D48997C7"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08D081B71688A543"]
+			id: "7D6D59C016FF9F59"
+			tasks: [{
+				id: "6C4CE74F133733A3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(tconstruct:casts/multi_use))"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16844EEFEB0743DD"]
+			id: "782BE1E5074463C9"
+			tasks: [{
+				id: "02414B13E54BFB5C"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D6D59C016FF9F59"]
+			id: "0F26E3289D09743D"
+			tasks: [{
+				id: "7246BCCB90A7FB60"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F6949E6E69A3F0D"]
+			id: "0E356A55F35332C2"
+			tasks: [{
+				id: "3C20D67CEB624EB1"
+				item: "tconstruct:scorched_brick"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3ABBB05BDFA37551"]
+			id: "10979E0EC9A577E5"
+			tasks: [
+				{
+					id: "1B972A84EEFBB32F"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "09BE248924A80B09"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "78B4025C12F5D9C5"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "0DBA44CC05866FF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19F4DB4EB164985D"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69749D32B2327333"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:pickaxe))"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "787C69B57C8D47C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4804FB19ADB28DB2"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5946C108A58398A5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:pickadze))"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			id: "4552FE7CDA7E9FC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58B8476E943E7124"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25A3C65411E39645"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:mattock))"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			id: "3CB2BD654CB0F709"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2648150B09136D9F"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74332B9D450D3706"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:hand_axe))"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			id: "2FBDC1F31801825C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "523D7777BA7AD236"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A6B28B03D006352"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:kama))"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			id: "3E5192F28C3B8C73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B4D8CA8D88FB685"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E4BEC99EB30639D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:dagger))"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			id: "5F2B48724E0795D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A44E7568B78B06F"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75298F7F3F6BCD1B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:sledge_hammer))"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			id: "01C54C29470E1D96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21FBF8DD9223E120"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C9DCE208DB4A9C2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:vein_hammer))"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			id: "5B86899B5BDD9E61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7478EB631BDF509C"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4859EDF82D23E930"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:excavator))"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			id: "659CBA0A42569981"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E4A41232A8E8B1A"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6777B2A36AB0F5BD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:broad_axe))"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			id: "46236D3FE452474F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C8AE45AB9243C41"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2834876E4D5A4CF3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:scythe))"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			id: "3C77E7ACDA2DE238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22FFC5A5543C11D2"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FDF67984AAEDC3F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:cleaver))"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			id: "4B132104B76EBF51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59ADCF70AF2D74FF"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1611EA4DA3E4B9F0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:crossbow))"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			id: "703CE692CD3385A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB9E7F93FE6E155"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61A72DC85DD726AA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:longbow))"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			id: "4D73EF55A7E2ED8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "704D2B20309645ED"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7AA4CD81ED54014D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:melting_pan))"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			id: "72F9B91A33CC8E85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B56A6AACBB32930"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3703A7628BD09786"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:war_pick))"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "3F995E026CEAC23F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FC741F279638518"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C6FBDE0FA0B6A17"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:battlesign))"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			id: "660ABE0E8D84D1BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20EC6FD5FB0B0060"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "693FC198D5EA95E5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:swasher))"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			id: "04B03B3EEDAA5E5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ED2F7FAAF6F1744"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C2B10291C33F73F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:plate_helmet))"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			id: "78E493E2C22B0B1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "458E9A5EB5D611D6"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "187A3528D5C328A0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:plate_chestplate))"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			id: "1905E45CC473CC97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C4191963D20F92E"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08B51B4603C5ED5F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:plate_leggings))"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			id: "0F590EB6E3CCA848"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A6AF5106A5149A9"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E2421B94C49DA61"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:plate_boots))"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			id: "2A1242AC187B01FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E580A0B3B35E67D"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46741562506A8876"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:plate_shield))"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			id: "62C9DD57842E42DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59E1A583BEBD5E79"
+				table_id: 111552182908841864L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7ED417E8C6EAE149"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:sword))"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0E356A55F35332C2"]
+			id: "1E059325761B7900"
+			tasks: [{
+				id: "44CC154437DCCCA4"
+				item: "tconstruct:scorched_alloyer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27B147A770DDDB96"]
+			id: "4CCE476082CD11F9"
+			tasks: [{
+				id: "68D128FEE63E29ED"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tconstruct:scorched_anvil))"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE476082CD11F9"]
+			id: "19673A24D04E50DD"
+			tasks: [{
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+				id: "62E97F3B22940844"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19673A24D04E50DD"]
+			id: "4ECD04CB532C364A"
+			tasks: [{
+				id: "0F93F7065666217B"
+				item: "tconstruct:ichor_slime_crystal"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ECD04CB532C364A"]
+			id: "5B0E5FD3F69D16FF"
+			tasks: [{
+				id: "439CD2559BE3970C"
+				item: "tconstruct:ender_slime_crystal"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	title: "Tinker's construct"
+}

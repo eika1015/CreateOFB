@@ -1,0 +1,11 @@
+{
+    "name": "Brass Ingot",
+    "colors": [
+    "ffa500",
+    "a0522d"
+    ],
+    "ingredient": {
+    "item": "create:brass_ingot"
+    },
+    "inUltimateSingularity": true
+}

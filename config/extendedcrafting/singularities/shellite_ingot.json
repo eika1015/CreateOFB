@@ -1,0 +1,11 @@
+{
+    "name": "Shellite Ingot",
+    "colors": [
+    "9400d3",
+    "4b0082"
+    ],
+    "ingredient": {
+    "item": "thermal_extra:shellite_ingot"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Cinderslime Ingot",
+    "colors": [
+    "b22222",
+    "ff0000"
+    ],
+    "ingredient": {
+    "item": "tconstruct:cinderslime_ingot"
+    },
+    "inUltimateSingularity": true
+}

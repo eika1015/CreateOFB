@@ -1,0 +1,11 @@
+{
+    "name": "Osmium Ingot",
+    "colors": [
+    "b0c4de",
+    "87cefa"
+    ],
+    "ingredient": {
+    "item": "mekanism:ingot_osmium"
+    },
+    "inUltimateSingularity": true
+}

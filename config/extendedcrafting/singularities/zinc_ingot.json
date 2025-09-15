@@ -1,0 +1,11 @@
+{
+    "name": "Zinc Ingot",
+    "colors": [
+    "008000",
+    "b0c4de"
+    ],
+    "ingredient": {
+    "item": "create:zinc_ingot"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Ethium Ingot",
+    "colors": [
+    "191970",
+    "f5deb3"
+    ],
+    "ingredient": {
+    "item": "create_ethium:ethium_ingot"
+    },
+    "inUltimateSingularity": true
+}

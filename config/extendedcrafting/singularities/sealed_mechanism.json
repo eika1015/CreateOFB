@@ -1,0 +1,11 @@
+{
+    "name": "Sealed Mechanism",
+    "colors": [
+    "696969",
+    "ffff00"
+    ],
+    "ingredient": {
+    "item": "create_dd:sealed_mechanism"
+    },
+    "inUltimateSingularity": true
+}

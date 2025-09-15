@@ -1,0 +1,11 @@
+{
+    "name": "Slimesteel Ingot",
+    "colors": [
+    "b0c4de",
+    "1e90ff"
+    ],
+    "ingredient": {
+    "item": "tconstruct:slimesteel_ingot"
+    },
+    "inUltimateSingularity": true
+}

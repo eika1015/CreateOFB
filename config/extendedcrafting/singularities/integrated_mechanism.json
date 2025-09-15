@@ -1,0 +1,11 @@
+{
+    "name": "Integrated Mechanism",
+    "colors": [
+    "ffff00",
+    "ff4500"
+    ],
+    "ingredient": {
+    "item": "create_dd:integrated_mechanism"
+    },
+    "inUltimateSingularity": true
+}

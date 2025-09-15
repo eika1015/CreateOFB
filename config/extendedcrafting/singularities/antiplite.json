@@ -1,0 +1,11 @@
+{
+    "name": "Antiplite Ingot",
+    "colors": [
+    "483d8b",
+    "b22222"
+    ],
+    "ingredient": {
+    "item": "createchromaticreturn:antiplite_ingot"
+    },
+    "inUltimateSingularity": true
+}

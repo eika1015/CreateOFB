@@ -1,0 +1,11 @@
+{
+    "name": "Manyullyn Ingot",
+    "colors": [
+    "9400d3",
+    "ff00ff"
+    ],
+    "ingredient": {
+    "item": "tconstruct:manyullyn_ingot"
+    },
+    "inUltimateSingularity": true
+}

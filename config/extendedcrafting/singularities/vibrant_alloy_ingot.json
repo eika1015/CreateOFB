@@ -1,0 +1,11 @@
+{
+    "name": "Vibrant Alloy Ingot",
+    "colors": [
+    "adff2f",
+    "ffff00"
+    ],
+    "ingredient": {
+    "item": "enderio:vibrant_alloy_ingot"
+    },
+    "inUltimateSingularity": true
+}

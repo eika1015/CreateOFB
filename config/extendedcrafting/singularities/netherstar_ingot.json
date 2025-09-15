@@ -1,0 +1,11 @@
+{
+    "name": "Netherstar Ingot",
+    "colors": [
+    "a9a9a9",
+    "f0f8ff"
+    ],
+    "ingredient": {
+    "item": "rainbowcompound:netherstar_ingot"
+    },
+    "inUltimateSingularity": true
+}

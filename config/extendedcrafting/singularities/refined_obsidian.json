@@ -1,0 +1,11 @@
+{
+    "name": "Refined Obsidian Ingot",
+    "colors": [
+    "8a2be2",
+    "4b0082"
+    ],
+    "ingredient": {
+    "item": "mekanism:ingot_refined_obsidian"
+    },
+    "inUltimateSingularity": true
+}
